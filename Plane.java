@@ -22,6 +22,15 @@ public class Plane extends Vehicle{
 			System.out.println("This Plane will cost:" + cost + " plus VAT to be added later.");
 			return cost;
 		}
+
+		// GETTERS AND SETTERS
+		public boolean isWings() {
+			return wings;
+		}
+
+		public void setWings(boolean wings) {
+			this.wings = wings;
+		}
 	
 	
 }

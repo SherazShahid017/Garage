@@ -23,4 +23,13 @@ public class Motorcycle extends Vehicle {
 			return cost;
 		}
 
+		// GETTERS AND SETTERS
+		public boolean isWindshield() {
+			return windshield;
+		}
+
+		public void setWindshield(boolean windshield) {
+			this.windshield = windshield;
+		}
+
 }

@@ -25,4 +25,21 @@ public class Car extends Vehicle {
 		return cost;
 	}
 
+	// GETTERS AND SETTERS
+	public int getDoors() {
+		return doors;
+	}
+
+	public void setDoors(int doors) {
+		this.doors = doors;
+	}
+
+	public float getEngineSize() {
+		return engineSize;
+	}
+
+	public void setEngineSize(float engineSize) {
+		this.engineSize = engineSize;
+	}
+
 }
